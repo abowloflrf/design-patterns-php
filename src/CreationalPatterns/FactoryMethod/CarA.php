@@ -1,8 +1,7 @@
 <?php
-namespace DesignPattern\CreationalPatterns;
+namespace DesignPattern\CreationalPatterns\FactoryMethod;
 
-require_once('CarInterface.php');
-class CarA implements Car
+class CarA implements CarInterface
 {
     private $type = "Type A";
     public function getType()

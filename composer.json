@@ -1,0 +1,7 @@
+{
+    "name": "abowloflrf/desgin-patterns",
+    "description": "Implements of Design Patterns with PHP.",
+    "autoload": {
+        "psr-4": { "DesignPattern\\": "src/" }
+    }
+}

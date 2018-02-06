@@ -1,7 +1,7 @@
 <?php
-namespace DesignPattern\CreationalPatterns;
+namespace DesignPattern\CreationalPatterns\FactoryMethod;
 
-interface Factory
+interface FactoryInterface
 {
     //定义工厂接口的produce方法用于实例化类
     public function produce();

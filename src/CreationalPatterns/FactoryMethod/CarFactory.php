@@ -1,8 +1,7 @@
 <?php
-namespace DesignPattern\CreationalPatterns;
+namespace DesignPattern\CreationalPatterns\FactoryMethod;
 
-require_once('FactoryInterface.php');
-class CarFactory implements Factory
+class CarFactory implements FactoryInterface
 {
     //CarFactory类实现了Factory结构中的produce方法生产实例化Car
     public function produce($type = '')
