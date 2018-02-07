@@ -1,9 +1,6 @@
 <?php
 namespace DesignPattern\CreationalPatterns\AbstractFactory;
 
-use DesignPattern\CreationalPatterns\AbstractFactory\OReillyPHPBook;
-use DesignPattern\CreationalPatterns\AbstractFactory\OReillyMySQLBook;
-
 class OReillyBookFactory extends AbstractBookFactory
 {
     private $publisher = "OReilly";

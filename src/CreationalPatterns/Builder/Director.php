@@ -1,8 +1,6 @@
 <?php
 namespace DesignPattern\CreationalPatterns\Builder;
 
-use DesignPattern\CreationalPatterns\Builder\PageBuilder;
-
 class Director
 {
     private $builder = null;

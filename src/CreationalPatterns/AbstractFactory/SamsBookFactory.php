@@ -1,9 +1,6 @@
 <?php
 namespace DesignPattern\CreationalPatterns\AbstractFactory;
 
-use DesignPattern\CreationalPatterns\AbstractFactory\SamsPHPBook;
-use DesignPattern\CreationalPatterns\AbstractFactory\SamsMySQLBook;
-
 class SamsBookFactory extends AbstractBookFactory
 {
     private $publisher = "Sams";
