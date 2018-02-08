@@ -1,5 +1,5 @@
 <?php
 require __DIR__ . '/vendor/autoload.php';
 
-$test = new DesignPattern\StructuralPatterns\Adapter\Test;
+$test = new DesignPattern\StructuralPatterns\Bridge\Test;
 $test->run();
