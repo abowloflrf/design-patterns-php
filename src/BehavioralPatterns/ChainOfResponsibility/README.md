@@ -72,7 +72,7 @@ $l->message("An error has occurred.", Logger::ERR);		// handled by all three Log
 
 输出：
 
-```php
+```
 Writing to debug output: Entering function y.
 Writing to debug output: Step1 completed.
 Sending via email: Step1 completed.
