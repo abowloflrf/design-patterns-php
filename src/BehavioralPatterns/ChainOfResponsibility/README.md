@@ -69,3 +69,14 @@ $l->message("Entering function y.", Logger::DEBUG);		// handled by DebugLogger
 $l->message("Step1 completed.", Logger::NOTICE);	// handled by DebugLogger and EmailLogger
 $l->message("An error has occurred.", Logger::ERR);		// handled by all three Loggers
 ```
+
+输出：
+
+```php
+Writing to debug output: Entering function y.
+Writing to debug output: Step1 completed.
+Sending via email: Step1 completed.
+Writing to debug output: An error has occurred.
+Sending via email: An error has occurred.
+Writing to stderr: An error has occurred.
+```
